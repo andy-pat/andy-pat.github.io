@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 body {
   overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #505962;
 }
 
@@ -16,22 +16,21 @@ body {
 /*---Navigation---*/
 
 .navbar {
-   text-transform: lowercase;
-   font-weight: 00;
-   font-size: 1.2rem;
-   letter-spacing: .1rem;
-   background: rgba(0, 0, 0, 0.6)!important
- }
+  text-transform: lowercase;
+  font-weight: 00;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
 .navbar-brand img {
   height: 2rem;
 }
 .navbar-nav li {
-  padding-right: .7rem;
-
+  padding-right: 0.7rem;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: white;
-  padding-top: .8rem;
+  padding-top: 0.8rem;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -49,27 +48,26 @@ body {
   top: 38%;
   z-index: 1;
   color: white;
-  text-transform: lowercase
+  text-transform: lowercase;
 }
 .caption h1 {
   font-size: 3.8rem;
   font-weight: 700;
-  letter-spacing: .3rem;
-  text-shadow: .1rem .1rem .8rem black;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
   padding-bottom: 1rem;
 }
 .caption h3 {
   font-size: 2rem;
-  text-shadow: .1rem 1.rem .5rem black;
+  text-shadow: 0.1rem 1rem 0.5rem black;
   padding-bottom: 1.6rem;
 }
 .btn-lg {
   border-width: medium;
   border-radius: 0;
-  padding: .6rem 1.3rem;
+  padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
 }
-
 
 /*---about Section---*/
 
@@ -80,16 +78,16 @@ blockquote .svg-inline--fa {
   color: #1ebba3;
   margin: 1rem;
   padding: 3rem;
-  text-align:center
+  text-align: center;
 }
 .about {
-  border-top: .05rem solid #1ebba3;
+  border-top: 0.05rem solid #1ebba3;
   margin: 4rem;
-  max-width: 100%;
+  max-width: 40%;
   align-content: center;
 }
 .row {
-  text-align:center
+  text-align: center;
 }
 .col-md-8 {
   max-width: 25rem;
@@ -98,10 +96,6 @@ blockquote .svg-inline--fa {
   align-content: center;
 }
 
-
-
-
-
 /*---Projects Section---*/
 
 .jumbotron {
@@ -109,7 +103,12 @@ blockquote .svg-inline--fa {
 
   border-radius: 100;
 }
-
+ul:before {
+  content: attr(aria-label);
+  font-size: 120%;
+  font-weight: bold;
+  margin-left: -15px;
+}
 h3.heading {
   font-size: 1.9rem;
   font-weight: 700;
@@ -118,10 +117,15 @@ h3.heading {
 }
 .heading-underline {
   width: 3rem;
-  height: .2rem;
+  height: 0.2rem;
   background-color: #1ebba3;
   margin: 0 auto 2rem;
-
+}
+.underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #1ebba3;
+  margin: 0.5em auto 0.5em;
 }
 .project svg.svg-inline--fa {
   color: #1ebba3;
@@ -129,10 +133,20 @@ h3.heading {
 .project h3 {
   font-size: 1.3rem;
   text-transform: uppercase;
-  padding-bottom: .4rem;
+  padding-bottom: 0.4rem;
 }
 .project p {
-  font-size: 1.1rem
+  font-size: 1.1rem;
+}
+.zeal {
+  height: 5rem;
+}
+
+.list {
+  list-style-type: square;
+  text-align: center;
+  padding: 0 6em 0;
+  margin: 0;
 }
 
 /*---Resources Section---*/
@@ -142,7 +156,7 @@ h3.heading {
 }
 
 .dark {
-  background-color: rgba(0,0,0,0.75);
+  background-color: rgba(0, 0, 0, 0.75);
   color: white;
   padding: 7rem 2rem;
 }
@@ -153,8 +167,6 @@ h3.heading {
 .fixed-background p {
   margin-top: 1.5rem;
 }
-
-
 
 /*---Contacts Section---*/
 footer {
@@ -167,24 +179,22 @@ footer {
 footer img {
   height: 3rem;
   margin: 1.5 rem 0;
-  
 }
 footer a {
   color: white;
 }
 footer svg.svg-inline--fa {
   font-size: 1.6rem;
-  margin: 1.2rem .5rem 0 0;
+  margin: 1.2rem 0.5rem 0 0;
 }
 footer svg.svg-inline--fa:hover {
-  color: #1ebba3!important;
+  color: #1ebba3 !important;
 }
 hr.socket {
   width: 100%;
-  border-top: .2rem solid #66671b;
+  border-top: 0.2rem solid #66671b;
   margin-top: 3rem;
 }
-
 
 /*============= COURSE SECTION =============*/
 
@@ -194,17 +204,17 @@ hr.socket {
   padding-top: 2rem;
 }
 .narrow h1 {
-    font-size: 2.4rem;
-  }
+  font-size: 2.4rem;
+}
 .btn-secondary {
   border-width: medium;
   border-radius: 0;
-  padding: .6rem 1.2rem;
+  padding: 0.6rem 1.2rem;
   font-size: 1.2rem;
   text-transform: uppercase;
   margin: 1rem;
-  border-color: #1EBBA3;
-  background-color: #1EBBA3;
+  border-color: #1ebba3;
+  background-color: #1ebba3;
   color: white;
 }
 .btn-secondary:hover,
@@ -214,22 +224,48 @@ hr.socket {
   color: white;
 }
 
+/* ============ BOOTSTRAP BREAK POINTS: */
 
-/*============ BOOTSTRAP BREAK POINTS:
+Extra
+  small
+  (xs)
+  devices
+  (portrait phones, less than 576px)
+  No
+  media
+  query
+  since
+  this
+  is
+  the
+  default
+  in
+  Bootstrap
+  Small
+  (sm)
+  devices
+  (landscape phones, 576px and up)
+  @media
+  (min-width: 576px) {
+  ...;
+}
 
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
+Medium (md) devices (tablets, 768px and up) @media (min-width: 768px) {
+  ...;
+}
 
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+Large (lg) devices (desktops, 992px and up) @media (min-width: 992px) {
+  ...;
+}
 
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+Extra
+  (xl)
+  large
+  devices
+  (large desktops, 1200px and up)
+  @media
+  (min-width: 1200px) {
+  ...;
+}
 
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-=============*/
+/* ============= */
