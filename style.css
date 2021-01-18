@@ -316,7 +316,7 @@ Extra
   width: 100%;
   height: 100%;
   left: -2px;
-  text-shadow: -2px 0 #1ebba3, 2px 2px #000000;
+  text-shadow: -2px 0 #1ebba3, 2px 2px #dd3b28;
   animation: glitch-anim2 1s infinite linear alternate-reverse;
 }
 
