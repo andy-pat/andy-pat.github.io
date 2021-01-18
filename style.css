@@ -74,6 +74,15 @@ body {
 .about img {
   border-radius: 50%;
 }
+.img-fluid {
+  max-width: 50%;
+  height: auto;
+}
+
+[class*="col-"] {
+  padding: 2rem;
+}
+
 blockquote .svg-inline--fa {
   color: #1ebba3;
   margin: 1rem;
@@ -139,7 +148,7 @@ h3.heading {
   font-size: 1.1rem;
 }
 .zeal {
-  height: 5rem;
+  max-width: 4rem;
 }
 
 .list {
