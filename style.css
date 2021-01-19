@@ -50,13 +50,9 @@ body {
   color: white;
 }
 .caption h1 {
-  font-size: 2.8rem;
   font-weight: 700;
   letter-spacing: 0.3rem;
   text-shadow: 0.1rem 0.1rem 0.8rem black;
-  padding-bottom: 1rem;
-  overflow: hidden;
-  white-space: nowrap;
 }
 
 .caption h3 {
@@ -285,7 +281,6 @@ Extra
 .glitch {
   position: relative;
   color: white;
-  font-size: 4em;
   letter-spacing: 0.5em;
   /* Animation provies a slight random skew. Check bottom of doc
   for more information on how to random skew. */
