@@ -6,6 +6,13 @@ body {
   color: #505962;
 }
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  width: initial;
+}
+
 .offset:before {
   display: block;
   content: "";
@@ -39,13 +46,13 @@ body {
 
 /*---Landing Page---*/
 .home-inner {
-  background-image: url(img/land.jpg);
+  background-image: url(img/renjola.jpg);
 }
 .caption {
   width: 100%;
   max-width: 100%;
   position: absolute;
-  top: 38%;
+  top: 17%;
   z-index: 1;
   color: white;
 }
