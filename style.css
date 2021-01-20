@@ -125,7 +125,7 @@ blockquote .svg-inline--fa {
 /*---Projects Section---*/
 h5.project {
   padding: 1rem;
-  margin: 0;
+  margin-bottom: 1rem;
 }
 ul:before {
   content: attr(aria-label);
@@ -138,6 +138,7 @@ h3.heading {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 1.9rem;
+  margin-top: 1.9rem;
 }
 .heading-underline {
   width: 3rem;
@@ -164,6 +165,10 @@ h3.heading {
 }
 .zeal {
   max-width: 4rem;
+}
+
+.lead {
+  margin-top: 2rem;
 }
 
 .list {

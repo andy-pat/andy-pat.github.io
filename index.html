@@ -31,7 +31,7 @@
 				<a class="nav-link" href="#about">About Me</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#resources">Projects</a>
+				<a class="nav-link" href="#projects">Projects</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#cv">CV</a>
@@ -109,33 +109,132 @@
 
 
 <!--Start of projects-->
-<div id="resources">
-	<div class="fixed-background">
-	<div class="row dark text-center">
+<div id="projects">
+	<div class="row pt-5">
+
 		<div class="col-12 pt-0">
 			<h3 class="heading">Projects</h3>
 			<div class="heading-underline"></div>
 		</div>
 		<div class="col-md-6">
-			<h3>nonu-news</h3>
-			<div class="feature">
-				<i class="fab fa-reddit-alien fa-5x"></i>
-			</div>
+				<h3 class="heading">ZEAL App</h3>
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+				  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
+				</ol>
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="/img/zeal screenshots/Screenshot from 2021-01-20 09-40-55.png" class="d-block w-100" alt="zeal app registration page">
+				  </div>
+				  <div class="carousel-item">
+					<img src="./img/zeal screenshots/Screenshot from 2021-01-20 09-41-20.png" class="d-block w-100" alt="...">
+				  </div>
+				  <div class="carousel-item">
+					<img src="./img/zeal screenshots/Screenshot from 2021-01-20 09-41-40.png" class="d-block w-100" alt="zeal app create group page">
+				  </div>
+				  <div class="carousel-item">
+					<img src="./img/zeal screenshots/Screenshot from 2021-01-20 09-41-51.png" class="d-block w-100" alt="zeal app post image page">
+				  </div>
+				  <div class="carousel-item">
+					<img src="./img/zeal screenshots/Screenshot from 2021-01-20 09-41-55.png" class="d-block w-100" alt="zeal app view posts">
+				  </div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Next</span>
+				</a>
+			  </div>
+
+			<p class="lead"><i>
+
+				Photography challenge social-media app. Create and join groups, develop your photography skills with friends.
+			</i>
+			<h5 class="project">
+
+				<!-- <a href="#about">view on web</a> -->
+				<br>
+				<a href="https://github.com/andy-pat/zeal_app">view <i class="fab fa-github"></i></a>
+			</h5>
+			<h4>Tech Stack</h4>
+
+				<div class="underline"></div>
+
+				<ul class="list"  aria-label="Backend"><br>	
+				<li>
+					Cloud Firestore
+				</li>
+					<li>
+
+						Firebase Authentication
+				</li>
+			</ul>
+			<ul class="list" aria-label="Frontend">
+
+				<li>
+					React-Native
+				</li>
+				<li>
+					Expo
+				</li>
+				<li>
+					Redux
+				</li>
+			</ul>
+				</p>
+		</div>
+		<div class="col-md-6">
+			<h3 class="heading">nonu-news</h3>
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+				<ol class="carousel-indicators">
+				  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+				</ol>
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="./img/nonu-news screenshots/Screenshot from 2021-01-20 09-55-17.png" class="d-block w-100" alt="nonu main">
+				  </div>
+				  <div class="carousel-item">
+					<img src="./img/nonu-news screenshots/Screenshot from 2021-01-20 09-55-23.png" class="d-block w-100" alt="nonu topic page">
+				  </div>
+				  <div class="carousel-item">
+					<img src="./img/nonu-news screenshots/Screenshot from 2021-01-20 09-55-28.png" class="d-block w-100" alt="nonu article page">
+				  </div>
+				 
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Next</span>
+				</a>
+			  </div>
 			<i>
 
-				<p class="lead">Full stack 'reddit-style' news application, allows user to post articles, comment, vote.</p>
+				<p class="lead">Full stack 'reddit-style' React web application, allows user to post articles, comment, vote.</p>
 			</i>
 				
 			<h5 class="project">
 
 				<a  href="https://nonu-news.netlify.app/">view on web</a><br>
-				<a  href="https://github.com/andy-pat/be-nc-news">Backend GitHub</a><br>
-				<a href="https://github.com/andy-pat/nonu-news">Frontend GitHub</a>
+				<a  href="https://github.com/andy-pat/be-nc-news">view backend <i class="fab fa-github"></i></a><br>
+				<a href="https://github.com/andy-pat/nonu-news">view frontend <i class="fab fa-github"></i></a>
 				
 			</h5>
+			<h4>Tech Stack</h4>
 				<div class="underline"></div>
-
-
+					
 			<ul class="list" aria-label="Backend">
 				<li>
 					postgreSQL
@@ -162,62 +261,13 @@
 			</li>
 		</ul>
 		</div>
-
-		<div class="col-md-6">
-			
-				<h3>zeal app</h3>
-
-			
-			<div class="feature">
-				<img class="zeal" src="./img/T4r.svg" alt="zeal logo">
-			</div>
-			<p class="lead"><i>
-
-				Photography challenge social-media app. Create and join groups, develop your photography skills with friends.
-			</i>
-			<h5 class="project">
-
-				<!-- <a href="#about">view on web</a> -->
-				<br>
-				<a href="https://github.com/andy-pat/zeal_app">GitHub repo</a>
-			</h5>
-				<div class="underline"></div>
-
-				<ul class="list"  aria-label="Backend"><br>	
-				<li>
-					Cloud Firestore
-				</li>
-					<li>
-
-						Firebase Authentication
-				</li>
-			</ul>
-			<ul class="list" aria-label="Frontend">
-
-				<li>
-					React-Native
-				</li>
-				<li>
-					Expo
-				</li>
-				<li>
-					Redux
-				</li>
-			</ul>
-				</p>
-		</div>
 	
 	
 	</div><!--End of Row Dark-->
-		<div class="fixed-wrap">
-			<div class="fixed">
 	
-			</div>
-		</div>
 	</div>
 	
-	</div><!--End Of Fixed Background Section-->
-	</div>
+	
 <!--End of projects-->
 
 <!--Start of CV-->
