@@ -79,11 +79,13 @@ a:hover {
   padding-bottom: 1.6rem;
 }
 .btn-lg {
-  margin-top: 45vh;
+  margin-top: 22rem;
   border-width: medium;
   border-radius: 0;
   padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
+  color: ghostwhite;
+  background: #406fc783;
 }
 
 /*---about Section---*/
