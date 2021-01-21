@@ -27,7 +27,7 @@ body {
   font-weight: 00;
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: rgba(0, 0, 0, 0.8) !important;
 }
 
 a {
@@ -79,13 +79,12 @@ a:hover {
   padding-bottom: 1.6rem;
 }
 .btn-lg {
-  margin-top: 22rem;
   border-width: medium;
   border-radius: 0;
   padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
   color: ghostwhite;
-  background: #406fc783;
+  background: #406fc7b2;
 }
 
 /*---about Section---*/
